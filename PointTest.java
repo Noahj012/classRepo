@@ -14,12 +14,18 @@ public class PointTest {
 
 	@Test
 	public void testPointPoint() {
-		fail("Not yet implemented");
+		Point p = new Point();
+		int expected = 0;
+		int actual = p.getX();
+		assertEquals(expected, actual);
 	}
 
 	@Test
 	public void testPointIntInt() {
-		fail("Not yet implemented");
+		Point p = new Point();
+		int expected = 0;
+		int actual = p.getX();
+		assertEquals(expected, actual);
 	}
 
 }
