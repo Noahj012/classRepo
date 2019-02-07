@@ -16,9 +16,10 @@ public class PointTest {
 
 	@Test
 	public void testPointPoint() {
-		Point p = new Point(new Point(CONSTANT_X,CONSTANT_X));
+		Point p = new Point(new Point(CONSTANT_X,0));
+		Point x = new Point(p);
 		int expected = CONSTANT_X;
-		int actual = p.getX();
+		int actual = x.getX();
 		assertEquals(expected, actual);
 	}
 
